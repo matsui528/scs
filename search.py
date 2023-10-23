@@ -31,7 +31,7 @@ if __name__ == '__main__':
         # Save them in "out"
         for n, id in enumerate(ids):
             Image.open(img_paths[id]).save(f"out/{n}.jpg")
-            print(img_paths[id])
+            print(f"{img_paths[id]} -> out/{n}.jpg")
     
 
 
