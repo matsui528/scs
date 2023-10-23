@@ -39,6 +39,8 @@ To use your own images, delete all images in the `img` directory and replace the
 pip install streamlit
 streamlit run seach_streamlit.py
 ```
+![image](https://github.com/matsui528/scs/assets/2842345/19976ec0-2d8b-4c82-a2e6-5a9e31050f9b)
+
 
 ## Reference
 - [OpenCLIP](https://github.com/mlfoundations/open_clip): Our project is heavily based on this repository.
