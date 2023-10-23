@@ -4,7 +4,8 @@
 
 Simple CLIP Search (SCS) is a system for searching images based on a text query using the OpenCLIP model. It is designed for educational purposes and can be run in a codespace (push the above badge!).
 
-![image](https://github.com/matsui528/scs/assets/2842345/604bea77-dae1-44fe-b836-e56cf8a97723)
+
+![image](https://github.com/matsui528/scs/assets/2842345/8382fade-3e8e-4c98-b868-0457d51770ff)
 
 
 
@@ -39,7 +40,8 @@ To use your own images, delete all images in the `img` directory and replace the
 pip install streamlit
 streamlit run seach_streamlit.py
 ```
-![image](https://github.com/matsui528/scs/assets/2842345/19976ec0-2d8b-4c82-a2e6-5a9e31050f9b)
+![image](https://github.com/matsui528/scs/assets/2842345/82af0525-c028-488a-bbc0-afc8fed2644e)
+
 
 
 ## Reference
