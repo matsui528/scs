@@ -30,6 +30,9 @@ To run SCS, follow these steps:
   python search.py
   ```
 
+## How to use your own images
+To use your own images, delete all images in the `img` directory and replace them with your own JPEG images. Then, run `extract_features.py` and `search.py` as described above.
+
 
 ## Reference
 - [OpenCLIP](https://github.com/mlfoundations/open_clip): Our project is heavily based on this repository.
