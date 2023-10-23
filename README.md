@@ -1,1 +1,1 @@
-# simple_clip_search
+# SCS: Simple CLIP search
