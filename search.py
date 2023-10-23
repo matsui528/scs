@@ -18,7 +18,7 @@ if __name__ == '__main__':
         query = input("Query> ")
         print(f"Query is '{query}'")
 
-        # Extract a text feature
+        # Extract a text feature and normalize it
         text = tokenizer([query])
         with torch.no_grad(), torch.cuda.amp.autocast():
             text_feature = model.encode_text(text)  # shape=(1, 512)
