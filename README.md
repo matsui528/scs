@@ -4,6 +4,10 @@
 
 Simple CLIP Search (SCS) is a system for searching images based on a text query using the OpenCLIP model. It is designed for educational purposes and can be run in a codespace (push the above badge!).
 
+![image](https://github.com/matsui528/scs/assets/2842345/604bea77-dae1-44fe-b836-e56cf8a97723)
+
+
+
 ## Prerequisites
 Before running SCS, you will need to have Python 3 installed on your system. You will also need to install the following dependencies:
 
@@ -25,6 +29,17 @@ To run SCS, follow these steps:
   ```console
   python search.py
   ```
+
+## How to use your own images
+To use your own images, delete all images in the `img` directory and replace them with your own JPEG images. Then, run `extract_features.py` and `search.py` as described above.
+
+
+## Bonus: GUI by streamlit
+```console
+pip install streamlit
+streamlit run seach_streamlit.py
+```
+![image](https://github.com/matsui528/scs/assets/2842345/19976ec0-2d8b-4c82-a2e6-5a9e31050f9b)
 
 
 ## Reference
