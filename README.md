@@ -34,5 +34,11 @@ To run SCS, follow these steps:
 To use your own images, delete all images in the `img` directory and replace them with your own JPEG images. Then, run `extract_features.py` and `search.py` as described above.
 
 
+## Bonus: GUI by streamlit
+```console
+pip install streamlit
+streamlit run seach_streamlit.py
+```
+
 ## Reference
 - [OpenCLIP](https://github.com/mlfoundations/open_clip): Our project is heavily based on this repository.
