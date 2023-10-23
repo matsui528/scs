@@ -19,7 +19,7 @@ To run SCS, follow these steps:
   ```
 - Extract features to the `feature` directory:
   ```console
-  python extract features
+  python extract_features.py
   ```
 - Search by querying a text. You can find the search results in the `out` directory:
   ```console
