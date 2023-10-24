@@ -2,7 +2,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/matsui528/scs)
 
-Simple CLIP Search (SCS) is a system for searching images based on a text query using the OpenCLIP model. It is designed for educational purposes and can be run in a codespace (push the above badge!).
+Simple CLIP Search (SCS) is a system for searching images based on a text query using the OpenCLIP model. It is designed for educational purposes and can be run in a codespace (click the above badge!).
 
 
 ![image](https://github.com/matsui528/scs/assets/2842345/8382fade-3e8e-4c98-b868-0457d51770ff)
