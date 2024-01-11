@@ -7,7 +7,10 @@ Simple CLIP Search (SCS) is a system for searching images based on a text query 
 
 ![image](https://github.com/matsui528/scs/assets/2842345/8382fade-3e8e-4c98-b868-0457d51770ff)
 
-
+## Tutorial
+See our video tutorial (in Japanese):
+1. [Algorithm](https://www.youtube.com/watch?v=RIMkLikJr_w)
+1. [Implementation](https://www.youtube.com/watch?v=CqvosCORZhc)
 
 ## Prerequisites
 Before running SCS, you will need to have Python 3 installed on your system. You will also need to install the following dependencies:
