@@ -41,7 +41,7 @@ To use your own images, delete all images in the `img` directory and replace the
 ## Bonus: GUI by streamlit
 ```console
 pip install streamlit
-streamlit run seach_streamlit.py
+streamlit run search_streamlit.py
 ```
 ![image](https://github.com/matsui528/scs/assets/2842345/82af0525-c028-488a-bbc0-afc8fed2644e)
 
