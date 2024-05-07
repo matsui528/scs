@@ -4,7 +4,6 @@
 
 Simple CLIP Search (SCS) is a system for searching images based on a text query using the OpenCLIP model. It is designed for educational purposes and can be run in a codespace (click the above badge!).
 
-
 ![image](https://github.com/matsui528/scs/assets/2842345/8382fade-3e8e-4c98-b868-0457d51770ff)
 
 ## Tutorial
@@ -21,9 +20,9 @@ pip install -r requirements.txt
 
 ## How to run
 To run SCS, follow these steps:
-- Download images (Caltech256 dataset) to the `img` directory:
+- Download images (Caltech256 and MNIST datasets) to the `img` directory:
   ```console
-  python download_caltech256.py
+  python download_datasets.py
   ```
 - Extract features to the `feature` directory:
   ```console
@@ -37,6 +36,13 @@ To run SCS, follow these steps:
 ## How to use your own images
 To use your own images, delete all images in the `img` directory and replace them with your own JPEG images. Then, run `extract_features.py` and `search.py` as described above.
 
+## Adding New Simple Image Datasets for Demos
+To add new simple image datasets for demos, follow the instructions in `download_datasets.py` and `extract_features.py` for adding support for new datasets. Ensure the dataset is in a format compatible with the existing processing scripts.
+
+## Supported Datasets
+- Caltech256
+- MNIST
+- You can easily add more following the guidelines.
 
 ## Bonus: GUI by streamlit
 ```console
@@ -44,8 +50,6 @@ pip install streamlit
 streamlit run search_streamlit.py
 ```
 ![image](https://github.com/matsui528/scs/assets/2842345/82af0525-c028-488a-bbc0-afc8fed2644e)
-
-
 
 ## Reference
 - [OpenCLIP](https://github.com/mlfoundations/open_clip): Our project is heavily based on this repository.
