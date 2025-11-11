@@ -16,7 +16,7 @@ if __name__ == '__main__':
     imgs = torch.tensor(np.stack(imgs))
 
     # Extract image features and normalize them
-    with torch.no_grad(), torch.cuda.amp.autocast():
+    with torch.no_grad(), torch.amp.autocast('cuda'):
         img_features = model.encode_image(imgs)  # shape=(257, 512)
         img_features /= img_features.norm(dim=-1, keepdim=True)
 
